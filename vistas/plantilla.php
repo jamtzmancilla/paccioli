@@ -16,7 +16,7 @@
 
       if ($_GET["ruta"]=="inicio"||
              $_GET["ruta"]=="perfil"||
-              $_GET["ruta"]=="productos"){
+             $_GET["ruta"]=="productos"){
         include "modulos/" .$_GET["ruta"]. ".php";
     }
   }
